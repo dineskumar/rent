@@ -564,6 +564,10 @@ a:focus {
   .main-logo {
     max-width: 100px;
   }
+
+  .head-top-right {
+    top: 18px;
+  }
 }
 
 /*slider css*/
