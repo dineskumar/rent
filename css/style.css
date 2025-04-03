@@ -236,6 +236,11 @@ a:focus {
   min-width: 150px;
 }
 
+.btn:focus,
+.btn:hover{
+  box-shadow: 00 3px 2px #999 !important;
+}
+
 .btn-lg {
   font-size: 18px;
   border-radius: 10px;
@@ -274,14 +279,21 @@ a:focus {
   border-color: #f0bb52;
 }
 
+.btn-primary:focus,
 .btn-primary:hover {
-  background-color: #232d5d;
-  border-color: #232d5d;
+  background-color: #e89c06;
+  border-color: #e89c06;
 }
 
 .btn-secondary {
   border-color: #232d5d;
   background: #232d5d;
+}
+
+.btn-secondary:focus,
+.btn-secondary:hover {
+  background-color: #0a152f;
+  border-color: #0a152f;
 }
 
 .btn-blue {
@@ -290,9 +302,22 @@ a:focus {
   color: #fff;
 }
 
+.btn-blue:hover,
+.btn-blue:focus {
+  background-color: #0a152f;
+  border-color: #0a152f;
+}
+
 .btn-purple {
   background: #c1317a;
   border-color: #c1317a;
+  color: #fff;
+}
+
+.btn-purple:focus,
+.btn-purple:hover {
+  background-color: #790640;
+  border-color: #790640;
   color: #fff;
 }
 
@@ -1033,7 +1058,6 @@ a:focus {
 .payment-options-section .custom-list li {
   background-image: url(../images/bulb-white.png);
 }
-
 
 @media only screen and (max-width: 767px) {
   .payment-options-section {
