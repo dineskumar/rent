@@ -353,6 +353,13 @@ a:focus {
     calc(100% - 10px) center;
 }
 
+.btn-read-more:focus,
+.btn-read-more:hover {
+  background: url(../images/arrow-right-long-solid.svg) no-repeat
+    calc(100% - 10px) center;
+  box-shadow: none !important;
+}
+
 /* home page */
 
 .header-top {
