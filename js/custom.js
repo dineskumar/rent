@@ -12,7 +12,7 @@ $(document).ready(function () {
     speed: 500,
     cssEase: "linear",
   });
-  $(".tentant-say-review").slick({
+  $(".tenant-say-review-caro").slick({
     infinite: true,
     arrows: true,
     speed: 500,

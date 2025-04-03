@@ -206,10 +206,12 @@ a:focus {
 @media only screen and (min-width: 1200px) {
   header .container {
     max-width: 1920px;
+    padding: 0 12px;
   }
 
   .container {
-    max-width: 1470px;
+    max-width: 1610px;
+    padding: 0 82px;
   }
 }
 
@@ -442,6 +444,7 @@ a:focus {
 
 .header-bottom {
   padding-bottom: 12px;
+  background-color: white;
 }
 
 .header-bottom-links li:first-child::after {
@@ -460,22 +463,28 @@ a:focus {
     margin-top: 0;
   }
 
-  /* .header-bottom.fixed {
+  .header-bottom.fixed {
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     z-index: 111;
-    background-color: white;
+    box-shadow: 0 1px 3px #999;
+    transition: all 300ms ease-in-out;
   }
+
+  /* 
+  .header-bottom .main-logo {
+  }*/
 
   .header-bottom .main-logo {
+    transition: all 300ms ease-in-out;
   }
 
-  .header-bottom.fixed .main-logo {
-    height: 60px;
-    width: auto;
-  } */
+  .header-bottom.fixed {
+    padding-bottom: 0;
+  }
+
 }
 
 @media only screen and (max-width: 1599px) {
@@ -543,6 +552,78 @@ a:focus {
 
   .navbar-toggler {
     margin-left: auto;
+    border: none;
+    outline: none !important;
+    box-shadow: none !important;
+    width: 48px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .navbar-toggler:after,
+  .navbar-toggler:before {
+    content: "";
+  }
+
+  .navbar-toggler:after,
+  .navbar-toggler:before,
+  .navbar-toggler span {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    background: #f0bb52;
+    border-radius: 3px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+
+  .navbar-toggler[aria-expanded="false"]:before {
+    top: 4px;
+  }
+
+  .navbar-toggler[aria-expanded="false"] span {
+    top: 18px;
+  }
+
+  .navbar-toggler[aria-expanded="false"]:after {
+    top: 32px;
+  }
+
+  .navbar-toggler[aria-expanded="true"]:before {
+    top: 18px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  .navbar-toggler[aria-expanded="true"] span {
+    opacity: 0;
+    left: -60px;
+  }
+
+  .navbar-toggler[aria-expanded="true"]:after {
+    top: 18px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
   }
 
   .header-bottom .navbar-nav li {
@@ -702,6 +783,42 @@ a:focus {
 .service-sec {
   background-color: #232d5d;
   position: relative;
+}
+
+.play-icon {
+  position: relative;
+  width: 144px;
+  height: 144px;
+  border: 1px solid #009ee1;
+}
+
+.play-icon:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  background: #009ee1;
+  transition: all 300ms ease-in-out;
+  z-index: 1;
+}
+
+.play-icon:hover:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.play-icon img {
+  position: relative;
+  z-index: 2;
 }
 
 .service-sec .m-h-sec {
@@ -1011,7 +1128,7 @@ a:focus {
 .tenant-saying .slick-arrow {
   position: absolute;
   right: 40px;
-  top: -100px;
+  top: -150px;
   width: 16px;
   height: 12px;
   text-indent: -9999px;
@@ -1027,7 +1144,7 @@ a:focus {
   border-radius: 16px;
 }
 
-.tentant-say-review > .slick-next {
+.tentant-say-review .slick-next {
   transform: rotate(-180deg);
   -webkit-transform: rotate(-180deg);
   right: 0;
@@ -1035,7 +1152,7 @@ a:focus {
 
 @media only screen and (max-width: 1199px) {
   .tenant-saying .slick-arrow {
-    top: -80px;
+    top: -120px;
   }
 
   .test-right p {
