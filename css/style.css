@@ -237,7 +237,7 @@ a:focus {
 }
 
 .btn:focus,
-.btn:hover{
+.btn:hover {
   box-shadow: 00 3px 2px #999 !important;
 }
 
@@ -452,6 +452,23 @@ a:focus {
     display: block;
     margin-top: 0;
   }
+
+  /* .header-bottom.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+    background-color: white;
+  }
+
+  .header-bottom .main-logo {
+  }
+
+  .header-bottom.fixed .main-logo {
+    height: 60px;
+    width: auto;
+  } */
 }
 
 @media only screen and (max-width: 1599px) {

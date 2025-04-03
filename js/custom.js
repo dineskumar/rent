@@ -19,3 +19,11 @@ $(document).ready(function () {
     cssEase: "linear",
   });
 });
+
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 36) {
+      $('.header-bottom').addClass('fixed');
+  } else {
+      $('.header-bottom').removeClass('fixed');
+  }
+});
