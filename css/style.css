@@ -739,7 +739,8 @@ a:focus {
 }
 
 .hero-slider .slick-dots li button {
-  background-color: #fff;
+  background:url('/images/slide-nav.png') no-repeat top left;
+  background-size: 12px auto;
   width: 100%;
   height: 100%;
   max-width: 100%;
@@ -754,7 +755,7 @@ a:focus {
 }
 
 .hero-slider .slick-dots li.slick-active button {
-  background: #f0bb52;
+  background-position: 0px -12px;
 }
 
 @media only screen and (max-width: 1399px) {
