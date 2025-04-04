@@ -732,8 +732,10 @@ a:focus {
   list-style: none;
   display: inline-flex;
   overflow: hidden;
-  padding: 0 3px;
+  margin: 0 3px;
   line-height: 1;
+  width: 12px;
+  height: 12px;
 }
 
 .hero-slider .slick-dots li button {
@@ -750,8 +752,6 @@ a:focus {
   line-height: 1;
   border: none;
   display: inline-flex; */
-  width: 12px;
-  height: 12px;
   background-color: #fff;
   border: none;
 }
