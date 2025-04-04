@@ -274,7 +274,7 @@ a:focus {
 
 .btn-primary {
   background-color: #f0bb52;
-  border-color: #e0c692;
+  border-color: #f0bb52;
 }
 
 .btn-primary:focus,
@@ -662,7 +662,7 @@ a:focus {
   position: absolute;
   top: 0;
   max-width: 1290px;
-  padding: 75px 12px 0;
+  padding: 90px 12px 0;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -1429,5 +1429,15 @@ a:focus {
 @media only screen and (max-width: 767px) {
   .subscribe-section label {
     font-size: 12px;
+  }
+
+  .footer ul li a {
+    font-size: 12px;
+  }
+
+  .footer-links ul li:after {
+    content: "/";
+    top: 2px;
+    font-size: 10px;
   }
 }
