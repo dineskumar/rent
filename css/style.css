@@ -230,7 +230,7 @@ a:focus {
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-  min-width: 150px;
+  min-width: 134px;
   font-size: 14px;
 }
 
@@ -1185,6 +1185,13 @@ a:focus {
     position: absolute;
     top: -16px;
     right: -16px;
+  }
+
+  .test-left > div:before {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    top: 10px;
+    left: 10px;
   }
 }
 
