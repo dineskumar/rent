@@ -753,6 +753,8 @@ a:focus {
   border: none;
   display: inline-flex; */
   background-color: #fff;
+  border: none;
+  text-indent: -99999px;
 }
 
 .hero-slider .slick-dots li.slick-active button {
