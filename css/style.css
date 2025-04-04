@@ -505,7 +505,7 @@ a:focus {
 
   .navbar-nav .dropdown ul.dropdown-menu.show {
     max-height: 1000px;
-    transition: all 1s ease
+    transition: all 1s ease;
   }
 }
 
@@ -736,7 +736,7 @@ a:focus {
   line-height: 1;
   width: 12px;
   height: 12px;
-  background:url('/images/slide-nav.png') no-repeat top left;
+  background: url("/images/slide-nav.png") no-repeat top left;
   background-size: 12px auto;
 }
 
@@ -1369,17 +1369,29 @@ a:focus {
   .customer-section h2 {
     font-size: 36px;
   }
+
+  .logos img {
+    max-width: 160px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
   .customer-section h2 {
     font-size: 32px;
   }
+
+  .logos img {
+    max-width: 120px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .customer-section h2 {
     font-size: 24px;
+  }
+
+  .logos img {
+    max-width: 80px;
   }
 }
 
@@ -1446,7 +1458,7 @@ a:focus {
 
 .footer .social-links li a {
   display: inline-flex;
-  padding: 5px; 
+  padding: 5px;
   border-radius: 5px;
   background-color: rgba(247, 250, 255, 0.1);
   color: #fff;
