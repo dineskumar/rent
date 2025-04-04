@@ -743,7 +743,10 @@ a:focus {
   height: 100%;
   max-width: 100%;
   max-height: 100%;
+  min-width: 0;
   border-radius: 50%;
+  min-width: 0;
+  line-height: 1;
   border: none;
   display: inline-flex;
 }
