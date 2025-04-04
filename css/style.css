@@ -1053,12 +1053,6 @@ a:focus {
   }
 }
 
-@media only screen and (max-width: 1199px) {
-  .reivew-images img {
-    max-width: 110px;
-  }
-}
-
 @media only screen and (max-width: 991px) {
   .testimonial-crousal {
     border: none;
