@@ -497,7 +497,7 @@ a:focus {
   .navbar-nav .dropdown ul.dropdown-menu li:last-child {
     padding-bottom: 10px;
   }
-  
+
   .navbar-nav .dropdown ul.dropdown-menu li a {
     display: block;
     padding: 5px 15px;
@@ -1135,9 +1135,9 @@ a:focus {
   border-bottom: 1px solid #21abe5;
 }
 
-.test-right .ratings {
+/* .test-right .ratings {
   color: #edb13b;
-}
+} */
 
 .tenant-saying h2:after {
   content: "";
