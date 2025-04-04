@@ -747,12 +747,12 @@ a:focus {
   max-width: 100%;
   max-height: 100%;
   min-width: 0;
-  text-indent: -9999px;
   border-radius: 50%;
   box-shadow: none;
   line-height: 1;
   border: none;
   display: inline-flex; */
+  text-indent: -9999px;
   background-color: transparent;
   border: none;
 }
