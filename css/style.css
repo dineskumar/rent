@@ -737,8 +737,11 @@ a:focus {
   background-color: #fff;
   width: 12px;
   height: 12px;
+  max-width: 12px;
+  max-height: 12px;
   border-radius: 50%;
   border: none;
+  display: inline-flex;
 }
 
 .hero-slider .slick-dots li.slick-active button {
