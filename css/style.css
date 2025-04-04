@@ -20,7 +20,7 @@ h6 {
 }
 
 h1 {
-  font-size: 76px;
+  font-size: 50px;
   line-height: 1;
   color: #f0bb52;
   font-weight: 600;
@@ -28,23 +28,23 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 38px;
+  line-height: 50px;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 h5 {
   line-height: 1;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .text-blue-dark {
@@ -216,9 +216,9 @@ a:focus {
 }
 
 .btn {
-  padding: 0 20px;
-  line-height: 54px;
-  height: 54px;
+  padding: 0 16px;
+  line-height: 48px;
+  height: 48px;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -227,15 +227,12 @@ a:focus {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  /* Firefox */
   -moz-transition: all 0.3s ease-in;
-  /* WebKit */
   -webkit-transition: all 0.3s ease-in;
-  /* Opera */
   -o-transition: all 0.3s ease-in;
-  /* Standard */
   transition: all 0.3s ease-in;
-  min-width: 150px;
+  min-width: 110px;
+  font-size: 14px;
 }
 
 .btn:focus,
@@ -244,10 +241,11 @@ a:focus {
 }
 
 .btn-lg {
-  font-size: 18px;
+  font-size: 15px;
   border-radius: 10px;
   line-height: 62px;
-  height: 62px;
+  height: 50px;
+  padding: 0 25px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -272,7 +270,7 @@ a:focus {
 
 @media only screen and (max-width: 991px) {
   .section-space {
-    padding: 60px 0;
+    padding: 60px 15px;
   }
 }
 
@@ -374,7 +372,7 @@ a:focus {
 }
 
 .social-links li {
-  margin: 0 10px;
+  margin: 0 6px;
 }
 
 .header-bottom .navbar-nav li {
@@ -484,7 +482,6 @@ a:focus {
   .header-bottom.fixed {
     padding-bottom: 0;
   }
-
 }
 
 @media only screen and (max-width: 1599px) {
@@ -537,6 +534,7 @@ a:focus {
 
 @media only screen and (max-width: 1199px) {
   .header-bottom {
+    min-height: 72px;
     padding: 8px 0;
   }
 
@@ -555,8 +553,8 @@ a:focus {
     border: none;
     outline: none !important;
     box-shadow: none !important;
-    width: 48px;
-    height: 40px;
+    width: 30px;
+    height: 24px;
     position: relative;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -578,7 +576,7 @@ a:focus {
   .navbar-toggler span {
     display: block;
     position: absolute;
-    height: 6px;
+    height: 2px;
     width: 100%;
     background: #f0bb52;
     border-radius: 3px;
@@ -595,7 +593,7 @@ a:focus {
   }
 
   .navbar-toggler[aria-expanded="false"]:before {
-    top: 4px;
+    top: 12px;
   }
 
   .navbar-toggler[aria-expanded="false"] span {
@@ -603,7 +601,7 @@ a:focus {
   }
 
   .navbar-toggler[aria-expanded="false"]:after {
-    top: 32px;
+    top: 24px;
   }
 
   .navbar-toggler[aria-expanded="true"]:before {
@@ -638,7 +636,7 @@ a:focus {
 
   .head-top-right {
     position: absolute;
-    right: 92px;
+    right: 72px;
     top: 1px;
   }
 
@@ -649,9 +647,6 @@ a:focus {
 }
 
 @media only screen and (max-width: 767px) {
-  .main-logo {
-    max-width: 100px;
-  }
 
   .head-top-right {
     top: 18px;
@@ -787,8 +782,8 @@ a:focus {
 
 .play-icon {
   position: relative;
-  width: 144px;
-  height: 144px;
+  width: 114px;
+  height: 114px;
   border: 1px solid #009ee1;
 }
 
@@ -1046,15 +1041,21 @@ a:focus {
   -webkit-transform: rotate(-180deg);
 }
 
-@media only screen and (max-width: 1299px) {
+@media only screen and (max-width: 1499px) {
   .reivew-images img {
     max-width: 200px;
   }
 }
 
+@media only screen and (max-width: 1299px) {
+  .reivew-images img {
+    max-width: 120px;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
   .reivew-images img {
-    max-width: 160px;
+    max-width: 110px;
   }
 }
 
