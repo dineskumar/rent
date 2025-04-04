@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 500;
 }
 
@@ -216,7 +216,7 @@ a:focus {
 }
 
 .btn {
-  padding: 0 16px;
+  padding: 0 22px;
   line-height: 48px;
   height: 54px;
   text-transform: uppercase;
@@ -239,11 +239,11 @@ a:focus {
 }
 
 .btn-lg {
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 10px;
   line-height: 62px;
-  height: 50px;
-  padding: 0 25px;
+  height: 54px;
+  padding: 0 29px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1424,4 +1424,10 @@ a:focus {
   font-size: 12px;
   color: #b6b9c1;
   line-height: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .subscribe-section label {
+    font-size: 12px;
+  }
 }
