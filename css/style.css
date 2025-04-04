@@ -755,7 +755,7 @@ a:focus {
   background-color: #fff;
   border: none;
   text-indent: -99999px;
-  border-radius: 50%;
+  border-radius: 6px
 }
 
 .hero-slider .slick-dots li.slick-active button {
