@@ -644,7 +644,6 @@ a:focus {
 }
 
 @media only screen and (max-width: 767px) {
-
   .head-top-right {
     top: 18px;
   }
@@ -892,13 +891,19 @@ a:focus {
 
 @media only screen and (max-width: 1199px) {
   .when-pay-sec {
-    background-position: 440px 0;
+    background-position: 700px 0;
   }
 }
 
 @media only screen and (max-width: 991px) {
   .when-pay-sec {
     background-image: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .when-pay-sec br {
+    display: none;
   }
 }
 
