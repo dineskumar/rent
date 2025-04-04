@@ -737,6 +737,7 @@ a:focus {
   width: 12px;
   height: 12px;
   background:url('/images/slide-nav.png') no-repeat top left;
+  background-size: 12px auto;
 }
 
 .hero-slider .slick-dots li button {
