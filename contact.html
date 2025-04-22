@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rent Guarantor</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="border-bottom header-top py-2">
+        <div class="container">
+          <div
+            class="row justify-content-md-between justify-content-center align-items-center flex-md-row flex-column"
+          >
+            <div class="col-auto">
+              Need help? Call us on :
+              <a href="tel:+44 207 193 4418">+44 207 193 4418</a>
+            </div>
+            <div class="col-auto mt-2 mt-md-0">
+              <div class="d-flex align-items-center">
+                <ul class="social-links d-xl-none d-flex">
+                  <li class="ms-0">
+                    <a
+                      href="https://www.facebook.com/RentGuarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/RentGuarantor" target="_blank"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/rentguarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/rentguarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                  </li>
+                </ul>
+                <div class="d-inline-flex align-items-center lh-1 ms-4">
+                  <img src="./images/en-flag.jpg" class="me-2" /> UK
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container position-relative">
+          <div class="row align-items-center">
+            <div class="col-auto me-auto">
+              <div class="main-logo-sec d-flex d-xl-none">
+                <a class="nav-link" href="#"
+                  ><img
+                    src="./images/logo.png"
+                    alt="Rent Guarantor"
+                    class="main-logo"
+                /></a>
+              </div>
+              <ul class="social-links d-none d-xl-flex">
+                <li class="ms-0">
+                  <a
+                    href="https://www.facebook.com/RentGuarantor"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/RentGuarantor" target="_blank"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/rentguarantor"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/rentguarantor"
+                    target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-auto order-3 order-xl-3">
+              <nav class="navbar navbar-expand-xl">
+                <div class="container-fluid p-0">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse mt-xl-0 navbar-collapse"
+                    id="navbarTogglerDemo01"
+                  >
+                    <ul
+                      class="navbar-nav m-auto align-items-center d-flex flex-xl-row flex-column pt-5 pt-xl-0"
+                    >
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="dropdown-toggle nav-link"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          >Tenants</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li><a href="#">How To Apply</a></li>
+                          <li><a href="#">Employed</a></li>
+                          <li><a href="#">Benefits</a></li>
+                          <li><a href="#">Students</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Quick Quote</a>
+                      </li>
+                      <li class="nav-item d-none d-xl-flex">
+                        <a class="nav-link" href="#"
+                          ><img
+                            src="./images/logo.png"
+                            alt="Rent Guarantor"
+                            class="main-logo"
+                        /></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="dropdown-toggle nav-link"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          >Partners</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Landlords</a></li>
+                          <li><a href="#">Agents</a></li>
+                          <li><a href="#">Councils</a></li>
+                          <li><a href="#">Universities</a></li>
+                          <li><a href="#">Charities</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Investor</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div class="col-auto ms-auto order-2 order-xl-3">
+              <div
+                class="row align-items-center justify-content-end head-top-right"
+              >
+                <div class="col-auto p-0">
+                  <ul class="header-bottom-links">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                  </ul>
+                </div>
+                <div class="col-auto d-none d-md-flex">
+                  <a href="#/" class="btn btn-primary">Apply Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section-space banner-contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col text-center py-4">
+            <h1>Contact Us</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-space blogs-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-11">
+            <div class="row justify-content-between">
+              <div class="col-lg-5">
+                <h2 class="mb-3 mb-lg-4">
+                  Have questions?<br />
+                  <span class="text-yellow-dark">Get in touch!</span>
+                </h2>
+                <p class="mb-4">
+                  Curabitur tellus leo, euismod sit amet gravida at, egestas sed
+                  commodo enim ipsam voluptatem quia voluptas.
+                </p>
+                <ul class="contact-info">
+                  <li class="position-relative ps-4 mb-3">
+                    <i
+                      class="fa-solid fa-location-dot text-yellow-dark position-absolute start-0"
+                    ></i
+                    ><span class="ms-3 d-inline-flex"
+                      >785 Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit. Donec vel fermentum lorem.</span
+                    >
+                  </li>
+                  <li class="position-relative ps-4 mb-3">
+                    <i
+                      class="fa-solid fa-mobile-screen-button text-yellow-dark position-absolute start-0"
+                    ></i
+                    ><a class="ms-3" href="tel:+12 345 678 9101"
+                      >+12 345 678 9101</a
+                    >
+                  </li>
+                  <li class="position-relative ps-4 mb-3">
+                    <i
+                      class="fa-regular fa-envelope text-yellow-dark position-absolute start-0"
+                    ></i
+                    ><a class="ms-3" href="emailto:info@rentguarantor.com"
+                      >info@rentguarantor.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 mt-4 mt-lg-0">
+                <div class="row contact-form">
+                  <div class="col-6">
+                    <div class="input-group mb-lg-5 mb-4 border-bottom">
+                      <span
+                        class="input-group-text px-0 bg-transparent border-0"
+                        ><img src="./images/user-icon.jpg"
+                      /></span>
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control bg-transparent shadow-none"
+                          id="floatingInputGroup1"
+                          placeholder="FirstName"
+                        />
+                        <label for="floatingInputGroup1">First Name</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="input-group mb-lg-5 mb-4 border-bottom">
+                      <span
+                        class="input-group-text px-0 bg-transparent border-0"
+                        ><img src="./images/user-icon.jpg"
+                      /></span>
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control bg-transparent shadow-none"
+                          id="floatingInputGroup2"
+                          placeholder="LastName"
+                        />
+                        <label for="floatingInputGroup2">Last Name</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="input-group mb-lg-5 mb-4 border-bottom">
+                      <span
+                        class="input-group-text px-0 bg-transparent border-0"
+                        ><img src="./images/enve-icon.jpg"
+                      /></span>
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control bg-transparent shadow-none"
+                          id="floatingInputGroup3"
+                          placeholder="EmailAddresss"
+                        />
+                        <label for="floatingInputGroup3">Email Address</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="input-group mb-lg-5 mb-4 border-bottom">
+                      <span
+                        class="input-group-text px-0 bg-transparent border-0"
+                        ><img src="./images/call-icon.jpg"
+                      /></span>
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control bg-transparent shadow-none"
+                          id="floatingInputGroup4"
+                          placeholder="Phone"
+                        />
+                        <label for="floatingInputGroup4">Phone</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-group mb-lg-5 mb-4 border-bottom">
+                      <span
+                        class="input-group-text px-0 bg-transparent border-0"
+                        ><img src="./images/info-icon.jpg"
+                      /></span>
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control bg-transparent shadow-none"
+                          id="floatingInputGroup5"
+                          placeholder="Subject"
+                        />
+                        <label for="floatingInputGroup5s">Subject</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-group mb-lg-5 mb-4 border-bottom">
+                      <span
+                        class="input-group-text px-0 bg-transparent border-0"
+                        ><img src="./images/text-area-icon.jpg"
+                      /></span>
+                      <div class="form-floating">
+                        <textarea
+                          class="form-control bg-transparent shadow-none"
+                          placeholder="How can we help you? Feel free to get in touch!"
+                          id="floatingTextarea2"
+                          style="height: 160px"
+                        ></textarea>
+                        <label for="floatingInputGroup5s"
+                          >How can we help you? Feel free to get in
+                          touch!</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 pt-3">
+                    <button class="btn btn-secondary">
+                      <i class="fa-regular fa-paper-plane me-3"></i> Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-space map-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-11 text-center">
+            <p class="mb-2">We'd love to talk about how we can help you</p>
+            <h3 class="fw-semibold mb-5">
+              call us on <a href="tel:+44 207 193 4418">+44 207 193 4418</a>
+            </h3>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9392355.919531992!2d-13.96786314523826!3d54.91949566577728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761bfa5a5286b9%3A0x8d1ae7208a9538d7!2sRentGuarantor%20Limited!5e0!3m2!1sen!2sin!4v1744957303290!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-space faq-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-11 rounded-4 border p-xl-5 py-4">
+            <div class="row align-items-center mt-2 px-3">
+              <div class="col">
+                <h2 class="mb-3">Got Questions? We've Got Answers!</h2>
+                <h6 class="mb-2">List of answer</h6>
+              </div>
+              <div class="col-lg-auto">
+                <a class="btn btn-secondary" href="#/">View all Faqs</a>
+              </div>
+            </div>
+            <div class="row mt-3 px-3">
+              <div class="col pt-5 border-top">
+                <div
+                  class="accordion pt-3 accordion-flush row"
+                  id="accordionPanelsStayOpenExample"
+                >
+                  <div class="col-lg-6 mb-4">
+                    <div class="accordion-item">
+                      <h4 class="accordion-header fw-medium">
+                        <button
+                          class="accordion-button bg-transparent shadow-none text-uppercase"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseOne"
+                          aria-expanded="true"
+                          aria-controls="panelsStayOpen-collapseOne"
+                        >
+                          Lorem ipsum dolor sit amet.
+                        </button>
+                      </h4>
+                      <div
+                        id="panelsStayOpen-collapseOne"
+                        class="accordion-collapse collapse show"
+                      >
+                        <div class="accordion-body text">
+                          <strong
+                            >This is the first item's accordion body.</strong
+                          >
+                          It is shown by default, until the collapse plugin adds
+                          the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <div class="accordion-item">
+                      <h4 class="accordion-header fw-medium">
+                        <button
+                          class="accordion-button bg-transparent shadow-none collapsed text-uppercase"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseTwo"
+                        >
+                          Aenean vel purus a magna dictum.
+                        </button>
+                      </h4>
+                      <div
+                        id="panelsStayOpen-collapseTwo"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <strong
+                            >This is the second item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 mb-4">
+                    <div class="accordion-item">
+                      <h4 class="accordion-header fw-medium">
+                        <button
+                          class="accordion-button bg-transparent text-uppercase shadow-none collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseThree"
+                        >
+                          Integer et tortor ut ante a ut leo.
+                        </button>
+                      </h4>
+                      <div
+                        id="panelsStayOpen-collapseThree"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <strong
+                            >This is the third item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 mb-4">
+                    <div class="accordion-item">
+                      <h4 class="accordion-header fw-medium">
+                        <button
+                          class="accordion-button bg-transparent text-uppercase shadow-none collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseFour"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseFour"
+                        >
+                          Vivamus sed tellus at arcu.
+                        </button>
+                      </h4>
+                      <div
+                        id="panelsStayOpen-collapseFour"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <strong
+                            >This is the third item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 mb-4">
+                    <div class="accordion-item">
+                      <h4 class="accordion-header fw-medium">
+                        <button
+                          class="accordion-button bg-transparent text-uppercase shadow-none collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseFive"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseFive"
+                        >
+                          Aliquam vel ex nec ex fringilla.
+                        </button>
+                      </h4>
+                      <div
+                        id="panelsStayOpen-collapseFive"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <strong
+                            >This is the third item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 mb-4">
+                    <div class="accordion-item">
+                      <h4 class="accordion-header fw-medium">
+                        <button
+                          class="accordion-button bg-transparent text-uppercase shadow-none collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseSix"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseSix"
+                        >
+                          Vestibulum quis lacus dictum.
+                        </button>
+                      </h4>
+                      <div
+                        id="panelsStayOpen-collapseSix"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <strong
+                            >This is the third item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 mb-4">
+                    <div class="accordion-item">
+                      <h4 class="accordion-header fw-medium">
+                        <button
+                          class="accordion-button bg-transparent text-uppercase shadow-none collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseSeven"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseSeven"
+                        >
+                          Suspendisse ultricies diam in.
+                        </button>
+                      </h4>
+                      <div
+                        id="panelsStayOpen-collapseSeven"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <strong
+                            >This is the third item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 mb-4">
+                    <div class="accordion-item">
+                      <h4 class="accordion-header fw-medium">
+                        <button
+                          class="accordion-button bg-transparent text-uppercase shadow-none collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseEight"
+                          aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseEight"
+                        >
+                          Quisque commodo ipsum in feugiat lacinia.
+                        </button>
+                      </h4>
+                      <div
+                        id="panelsStayOpen-collapseEight"
+                        class="accordion-collapse collapse"
+                      >
+                        <div class="accordion-body">
+                          <strong
+                            >This is the third item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-space subscribe-section bg-yellow-dark text-white">
+      <div class="container">
+        <div class="row px-lg-5 align-items-center">
+          <div class="col-xl-7">
+            <h2 class="fw-medium">
+              Subscribe to get the <br />latest from Rent Guarantor
+            </h2>
+          </div>
+          <div class="col-xl-5 ps-xl-4 mt-4 mt-xl-0">
+            <div class="d-flex align-sm-items-center mb-4">
+              <div class="me-sm-5 me-2 d-inline-flex align-items-center">
+                <input
+                  type="checkbox"
+                  id="btncheck1"
+                  autocomplete="off"
+                  class="border-0"
+                />
+                <label for="btncheck1" class="text-dark ms-2 text-uppercase"
+                  >Tenant</label
+                >
+              </div>
+              <div class="me-sm-5 me-2 d-inline-flex align-items-center">
+                <input type="checkbox" id="btncheck2" autocomplete="off" />
+                <label for="btncheck2" class="text-dark ms-2 text-uppercase"
+                  >Agent</label
+                >
+              </div>
+              <div class="me-sm-5 me-2 d-inline-flex align-items-center">
+                <input type="checkbox" id="btncheck3" autocomplete="off" />
+                <label for="btncheck3" class="text-dark ms-2 text-uppercase"
+                  >landlord</label
+                >
+              </div>
+            </div>
+            <div class="input-group mb-3 rounded-4 overflow-hidden">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your email address"
+                aria-label="Your email address"
+                aria-describedby="button-addon2"
+              />
+              <button class="btn btn-blue" type="button" id="button-addon2">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="section-space pb-0 footer bg-blue-dark">
+      <div class="container">
+        <div class="footer-top pb-5 mb-5">
+          <div class="row text-lg-start text-center">
+            <div class="col-xl-3 pe-xl-5">
+              <div class="mb-4">
+                <img src="./images/white-logo.png" alt="Rent Guarantor" />
+              </div>
+              <p class="footer-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                varius sed sem quis ultrices. Aenean enim odio, dapibus at elit
+                quis, lobortis gravida neque.
+              </p>
+            </div>
+            <div class="col-lg-auto col-6 flex-lg-fill">
+              <div class="links-heading text-white mb-2">
+                Useful Information
+              </div>
+              <ul>
+                <li class="mb-3"><a href="#">FAQ</a></li>
+                <li class="mb-3"><a href="#">News</a></li>
+                <li class="mb-3"><a href="#">Promotions</a></li>
+                <li class="mb-3"><a href="#">Affilate Programme</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-auto col-6 flex-lg-fill">
+              <div class="links-heading text-white mb-2">Legal</div>
+              <ul>
+                <li class="mb-3"><a href="#">Terms & Conditions</a></li>
+                <li class="mb-3"><a href="#">Privacy</a></li>
+                <li class="mb-3"><a href="#">Cookies</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-auto col-6 flex-lg-fill">
+              <div class="links-heading text-white mb-2">Company</div>
+              <ul>
+                <li class="mb-3"><a href="#">About us</a></li>
+                <li class="mb-3"><a href="#">Investors</a></li>
+                <li class="mb-3"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-auto col-6 flex-lg-fill">
+              <div class="links-heading text-white mb-2">Internal Links</div>
+              <ul>
+                <li class="mb-3"><a href="#">How It Works</a></li>
+                <li class="mb-3"><a href="#">Pricing</a></li>
+                <li class="mb-3"><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-auto col-6 flex-lg-fill">
+              <div class="links-heading text-white mb-2">Quick Links</div>
+              <ul>
+                <li class="mb-3"><a href="#">Payment</a></li>
+                <li class="mb-3"><a href="#">Report Arrears</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom pb-5">
+          <div class="container-fluid">
+            <div
+              class="row justify-content-between flex-column flex-md-row align-items-center"
+            >
+              <div class="col-auto">
+                <div class="footer-links">
+                  <ul class="d-flex align-items-center">
+                    <li class="pe-4 me-4">
+                      <a href="#">Terms & Conditions</a>
+                    </li>
+                    <li class="pe-4 me-4"><a href="#">Privacy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-auto mt-md-0 mt-3">
+                <ul class="social-links d-flex align-items-center">
+                  <li class="ms-0">
+                    <a
+                      href="https://www.facebook.com/RentGuarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/RentGuarantor" target="_blank"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/rentguarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/rentguarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="row footer-copyright text-center justify-content-center mt-5"
+            >
+              <div class="col-lg-6">
+                <div>© RentGuarantor 2025 All rights reserved.</div>
+                <div>
+                  RentGuarantor Limited, Registration no. 07913370. Part of the
+                  RentGuarantor Holdings PLC group of companies.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div
+      class="modal fade"
+      id="howItWorkModal"
+      tabindex="-1"
+      aria-labelledby="howItWorkLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg lh-1">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <iframe
+              class="w-100"
+              width="560"
+              height="400"
+              src="https://www.youtube.com/embed/_6MkfGIlyQ0?si=G99Fj9Q2RdHQN65r"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/custom.js"></script>
+    <script type="text/javascript" src="./js/slick.js"></script>
+  </body>
+</html>

@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rent Guarantor</title>
+    <script
+      src="https://kit.fontawesome.com/fd10c4ffa5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="border-bottom header-top py-2">
+        <div class="container">
+          <div
+            class="row justify-content-md-between justify-content-center align-items-center flex-md-row flex-column"
+          >
+            <div class="col-auto">
+              Need help? Call us on :
+              <a href="tel:+44 207 193 4418">+44 207 193 4418</a>
+            </div>
+            <div class="col-auto mt-2 mt-md-0">
+              <div class="d-flex align-items-center">
+                <ul class="social-links d-xl-none d-flex">
+                  <li class="ms-0">
+                    <a
+                      href="https://www.facebook.com/RentGuarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/RentGuarantor" target="_blank"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/rentguarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/rentguarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                  </li>
+                </ul>
+                <div class="d-inline-flex align-items-center lh-1 ms-4">
+                  <img src="./images/en-flag.jpg" class="me-2" /> UK
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container position-relative">
+          <div class="row align-items-center">
+            <div class="col-auto me-auto">
+              <div class="main-logo-sec d-flex d-xl-none">
+                <a class="nav-link" href="#"
+                  ><img
+                    src="./images/logo.png"
+                    alt="Rent Guarantor"
+                    class="main-logo"
+                /></a>
+              </div>
+              <ul class="social-links d-none d-xl-flex">
+                <li class="ms-0">
+                  <a
+                    href="https://www.facebook.com/RentGuarantor"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/RentGuarantor" target="_blank"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/rentguarantor"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/rentguarantor"
+                    target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-auto order-3 order-xl-3">
+              <nav class="navbar navbar-expand-xl">
+                <div class="container-fluid p-0">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse mt-xl-0 navbar-collapse"
+                    id="navbarTogglerDemo01"
+                  >
+                    <ul
+                      class="navbar-nav m-auto align-items-center d-flex flex-xl-row flex-column pt-5 pt-xl-0"
+                    >
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="dropdown-toggle nav-link"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          >Tenants</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li><a href="#">How To Apply</a></li>
+                          <li><a href="#">Employed</a></li>
+                          <li><a href="#">Benefits</a></li>
+                          <li><a href="#">Students</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Quick Quote</a>
+                      </li>
+                      <li class="nav-item d-none d-xl-flex">
+                        <a class="nav-link" href="#"
+                          ><img
+                            src="./images/logo.png"
+                            alt="Rent Guarantor"
+                            class="main-logo"
+                        /></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="dropdown-toggle nav-link"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          >Partners</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Landlords</a></li>
+                          <li><a href="#">Agents</a></li>
+                          <li><a href="#">Councils</a></li>
+                          <li><a href="#">Universities</a></li>
+                          <li><a href="#">Charities</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Investor</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div class="col-auto ms-auto order-2 order-xl-3">
+              <div
+                class="row align-items-center justify-content-end head-top-right"
+              >
+                <div class="col-auto p-0">
+                  <ul class="header-bottom-links">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                  </ul>
+                </div>
+                <div class="col-auto d-none d-md-flex">
+                  <a href="#/" class="btn btn-primary">Apply Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section-space blog-details-section">
+      <div class="container">
+        <div class="row flex-column align-items-center">
+          <div class="col-auto mb-4">
+            <span class="badge badge-lg">General</span>
+          </div>
+          <div class="col-lg-11">
+            <h1 class="text-dark text-capitalize text-center mb-4">
+              Government Facing More Criticism Over PRS Oversight
+            </h1>
+          </div>
+          <div class="col-auto d-inline-flex align-items-center">
+            <span
+              class="text-blue-dark fw-semibold me-2 d-inline-flex align-items-center"
+              ><img src="./images/logo-sm.png" class="me-2" /> Rent
+              Guarantor</span
+            ><span class="ms-2 text-yellow-dark">March 15, 2025</span>
+          </div>
+          <div class="col-lg-11 my-lg-5 my-4">
+            <div
+              class="d-inline-flex position-relative blog-detail-img-wrapper"
+            >
+              <img
+                src="./images/blog-detail-img.png"
+                alt="blog details"
+                class="rounded-4"
+              />
+            </div>
+          </div>
+          <div class="col-lg-11 blog-content">
+            <p>
+              As the UK Government battles growing criticism on various fronts,
+              watchdogs and industry bodies are sharing their dissatisfaction. A
+              recent report from the National Audit Office (NAO) suggests
+              government regulation of the Private Rental Sector (PRS) makes it
+              unfair towards renters. That's a view that lettings professionals
+              and even some MPs have shared in the past week or so.
+            </p>
+            <p>
+              If that's not enough, while media reports claim the government may
+              push back its Energy Performance Certificate (EPC) deadline for
+              landlords, one lettings body has said more support is still
+              needed. It states that more financial assistance for landlords
+              should be provided to ensure the necessary works are carried out
+              safely and to the required standard.
+            </p>
+            <h3>Lack of Regulatory Support for Local Councils</h3>
+            <p>
+              The NAO report was published following an assessment of the
+              regulation of the PRS in the UK. While there were some positive
+              details including recognition that the Department for Levelling
+              Up, Housing and Communities (DLUHC) has shown a desire to make the
+              PRS fairer for tenants, the resulting action was not comprehensive
+              or supportive enough.
+            </p>
+            <p>
+              Specifically, <span class="text-blue-lt">the NAO found</span> that
+              the government, through the DLUHC “is not proactive in supporting
+              local authorities to regulate effectively.” The report was also
+              critical of the fact that it has yet to deliver a suitable plan to
+              identify gaps that are affecting PRS tenants who are living in
+              poor conditions or being treated improperly by their landlord or
+              letting agent.
+            </p>
+            <p>
+              Looking ahead, the NAO adds that the White Paper which is
+              currently being researched must include a “clear vision for what
+              it is trying to achieve and an overarching strategy for how to
+              address the challenges raised” by the body.
+            </p>
+            <p>
+              Commenting on the report, the Member of Parliament for Brighton,
+              Caroline Lucas said in an interview that while the findings were
+              disappointing, they weren’t surprising.
+            </p>
+            <p>
+              “This government, like previous Tory governments, treats renters
+              as second-class citizens and turns a blind eye when private
+              landlords rip-off tenants or leaves them in unsafe homes,” the
+              Green MP told
+              <span class="text-blue-lt">the Brighton Argus newspaper</span>.
+            </p>
+            <p>
+              She did add that although there are many good PRS landlords, the
+              ones who aren’t continue to rent out homes that often put tenants
+              health and safety at risk.
+            </p>
+            <h3>EPC Investment Proposals Misguided</h3>
+            <p>
+              While you might think that’s the end of the current letting
+              industry-related criticism aimed at the government, you’d be
+              wrong. Dissatisfaction is also being shared over lettings EPC
+              targets, despite a possible delay to them becoming mandatory.
+            </p>
+            <p>
+              The current government plans are for rental properties for new
+              tenancies to have an EPC rating of C or better by 2025 and for all
+              letting properties to have that by 2028. It is also understood
+              that the government expects landlords to spend up to a maximum of
+              £10,000 per property to ensure tat target is achieved.
+            </p>
+            <p>
+              However, the National Residential Landlords Association (NRLA)
+              said that cap is unrealistic and assumes that all landlords are
+              wealthy property tycoons with money to spare. While improved
+              energy efficiency is a worthy target, the way in which it is
+              achieved should be subject to a rethink by the government.
+            </p>
+            <p>
+              “The Government’s proposals for the sector are not good enough,”
+              <span class="text-blue-lt"
+                >said NRLA chief executive Ben Cheadle</span
+              >. “Ministers need a smarter approach with a proper financial
+              package if they are to ensure their ambitious objectives are to be
+              met.”
+            </p>
+            <p>
+              Whether or not this view will be considered by the government
+              remains to be seen. What is clear, however, is that when it comes
+              to the existing regulatory plans – or lack of them – there’s a lot
+              of work to do to satisfy the various stakeholders in the industry.
+            </p>
+          </div>
+          <div class="col-lg-11 mb-5">
+            <div class="social-share py-lg-4 mt-lg-5">
+              <div class="row py-3 justify-content-between">
+                <div class="col-lg-auto mb-4 mb-lg-0">
+                  <div class="tags-list">
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center text-gray-lt rounded-2 py-1 lh-2 px-3 me-1"
+                      >PRS</span
+                    >
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center text-gray-lt rounded-2 py-1 lh-2 px-3 me-1"
+                      >Legislation</span
+                    >
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center text-gray-lt rounded-2 py-1 lh-2 px-3 me-1"
+                      >Government</span
+                    >
+                    <span
+                      class="d-inline-flex align-items-center justify-content-center text-gray-lt rounded-2 py-1 lh-2 px-3 me-1"
+                      >Oversite</span
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-auto">
+                  <div class="social-share-list">
+                    <ul class="d-flex align-items-center">
+                      <li class="px-1">
+                        <a href="#/" class="twitter"
+                          ><i class="fa-brands fa-x-twitter"></i
+                        ></a>
+                      </li>
+                      <li class="px-1">
+                        <a href="#/" class="facebook"
+                          ><i class="fa-brands fa-facebook-f"></i
+                        ></a>
+                      </li>
+                      <li class="px-1">
+                        <a href="#/" class="enve"
+                          ><i class="fa-regular fa-envelope"></i
+                        ></a>
+                      </li>
+                      <li class="px-1">
+                        <a href="#/" class="link"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-11 pt-lg-5">
+            <h2 class="mb-3 pt-lg-5">Write a Reply or Comment</h2>
+            <p class="mb-5">
+              Your email address will not be published. Required fields are
+              mareked*
+            </p>
+            <div class="form-wrapper">
+              <div class="row">
+                <div class="col-lg-4 mb-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Name"
+                  />
+                </div>
+                <div class="col-lg-4 mb-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Email"
+                  />
+                </div>
+                <div class="col-lg-4 mb-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter URL"
+                  />
+                </div>
+                <div class="col-12 mb-4">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="8"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-secondary">Post Comment</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-11 pt-5 mt-lg-5 blog-card">
+            <h2 class="mb-5 text-center">Related Articles</h2>
+            <div class="row flex-column flex-xl-row align-items-center">
+              <div class="col-xl-4 col-sm-8 px-xl-3 mb-xl-0 mb-5">
+                <div
+                  class="card border-0 shadow-none overflow-hidden rounded-4 h-100"
+                >
+                  <div
+                    class="card-header p-0 border-0"
+                    style="background-image: url('./images/blog-img-1.png')"
+                  ></div>
+                  <div class="card-body p-lg-4 pb-lg-5 pb-5 position-relative">
+                    <div
+                      class="row mb-3 pb-3 blog-author-date justify-content-between align-items-center"
+                    >
+                      <div class="col">
+                        By
+                        <strong class="text-blue-dark">Rent Guarantor</strong>
+                        March 15, 2025
+                      </div>
+                      <div class="col-auto">
+                        <span class="badge">General</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <h3 class="mb-2">
+                        <a href="#/">
+                          Government Facing More Criticism Over PRS Oversight
+                        </a>
+                      </h3>
+                      <p class="mb-5">
+                        As the UK Government battles growing criticism on
+                        various fronts, watchdogs and industry bodies are
+                        sharing their dissatisfaction. A recent report from the
+                        National Audit Office...
+                      </p>
+                      <p class="mb-0">
+                        <a
+                          class="position-absolute icon-link icon-link-hover text-uppercase"
+                          href="#"
+                        >
+                          Read more
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-chevron-right"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                            ></path>
+                          </svg>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-8 px-xl-3 mb-xl-0 mb-5">
+                <div
+                  class="card border-0 shadow-none overflow-hidden rounded-4 h-100"
+                >
+                  <div
+                    class="card-header p-0 border-0"
+                    style="background-image: url('./images/blog-img-1.png')"
+                  ></div>
+                  <div class="card-body p-lg-4 pb-lg-5 pb-5 position-relative">
+                    <div
+                      class="row mb-3 pb-3 blog-author-date justify-content-between align-items-center"
+                    >
+                      <div class="col">
+                        By
+                        <strong class="text-blue-dark">Rent Guarantor</strong>
+                        March 15, 2025
+                      </div>
+                      <div class="col-auto">
+                        <span class="badge">General</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <h3 class="mb-2">
+                        <a href="#/">
+                          Government Facing More Criticism Over PRS Oversight
+                        </a>
+                      </h3>
+                      <p class="mb-5">
+                        As the UK Government battles growing criticism on
+                        various fronts, watchdogs and industry bodies are
+                        sharing their dissatisfaction. A recent report from the
+                        National Audit Office...
+                      </p>
+                      <p class="mb-0">
+                        <a
+                          class="position-absolute icon-link icon-link-hover text-uppercase"
+                          href="#"
+                        >
+                          Read more
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-chevron-right"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                            ></path>
+                          </svg>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-8 px-xl-3">
+                <div
+                  class="card border-0 shadow-none overflow-hidden rounded-4 h-100"
+                >
+                  <div
+                    class="card-header p-0 border-0"
+                    style="background-image: url('./images/blog-img-1.png')"
+                  ></div>
+                  <div class="card-body p-lg-4 pb-lg-5 pb-5 position-relative">
+                    <div
+                      class="row mb-3 pb-3 blog-author-date justify-content-between align-items-center"
+                    >
+                      <div class="col">
+                        By
+                        <strong class="text-blue-dark">Rent Guarantor</strong>
+                        March 15, 2025
+                      </div>
+                      <div class="col-auto">
+                        <span class="badge">General</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <h3 class="mb-2">
+                        <a href="#/">
+                          Government Facing More Criticism Over PRS Oversight
+                        </a>
+                      </h3>
+                      <p class="mb-5">
+                        As the UK Government battles growing criticism on
+                        various fronts, watchdogs and industry bodies are
+                        sharing their dissatisfaction. A recent report from the
+                        National Audit Office...
+                      </p>
+                      <p class="mb-0">
+                        <a
+                          class="position-absolute icon-link icon-link-hover text-uppercase"
+                          href="#"
+                        >
+                          Read more
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-chevron-right"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                            ></path>
+                          </svg>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-space apply-now text-white">
+      <div class="container">
+        <div class="row align-items-center justify-content-md-between">
+          <div class="col-lg-6 pe-xl-5">
+            <h2 class="mb-4">
+              Apply Now<br />
+              Even Without a
+              <br />Property Identifie
+            </h2>
+            <p class="mb-4 mb-lg-0 pe-lg-5 me-xl-5">
+              You can secure RentGuarantor’s services even before you’ve found a
+              property. A successful application remains active for
+              <strong>40 days</strong> — giving you time to secure your ideal
+              home with confidence.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <div class="mb-2">
+              <img src="./images/logo-white.png" alt="Rent Guarantor" />
+            </div>
+            <p class="mb-3">
+              <a href="#/" class="btn btn-primary">Get Approved Today</a>
+            </p>
+            <p class="mb-0">Secure your next rental with peace of mind!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-space customer-section">
+      <div class="container">
+        <div class="row px-xl-5 mb-lg-5 mb-3 pb-3">
+          <div class="col-xl-6 px-xl-4 mb-5 mb-xl-0">
+            <h2 class="mb-xl-5 mb-4 pb-xl-5 pb-4 text-center">
+              Let's Start <br />
+              with New Customers
+            </h2>
+            <div class="card border-0 rounded-4 shadow position-relative">
+              <img
+                src="./images/new-cust-img.png"
+                class="card-img-top rounded-4"
+                alt="..."
+              />
+              <p
+                class="p-3 card-text position-absolute left-0 right-0 w-100 bottom-0 bg-white rounded-bottom-4 mb-0 text-center"
+              >
+                Click register to create a free account and start the
+                application process
+              </p>
+              <a href="#" class="btn btn-secondary position-absolute"
+                >Register</a
+              >
+            </div>
+          </div>
+          <div class="col-xl-6 px-xl-4">
+            <h2 class="mb-xl-5 mb-4 pb-xl-5 pb-4 text-center">
+              Let's Start <br />
+              with Existing Customers
+            </h2>
+            <div class="card border-0 rounded-4 shadow position-relative">
+              <img
+                src="./images/exit-cust-img.png"
+                class="card-img-top rounded-4"
+                alt="..."
+              />
+              <p
+                class="p-3 card-text position-absolute left-0 right-0 w-100 bottom-0 bg-white rounded-bottom-4 mb-0 text-center"
+              >
+                Click login to start the application process
+              </p>
+              <a href="#" class="btn btn-secondary position-absolute">Login</a>
+            </div>
+          </div>
+        </div>
+        <div class="row px-lg-5 mb-lg-5 mb-3 pb-3 pt-4">
+          <div class="col px-lg-4">
+            <div class="sm-text">
+              <p>
+                *Failure to disclose adverse credit at this point may lead to
+                the cancelling of your application, no refund will be available
+                for the payment made for any credit checking
+              </p>
+              <p>
+                *Subject to affordability assessments. RENTGUARANTOR LIMITED is
+                an Introducer Appointed Representative of Social Money LTD t/a
+                Payl8r. Missed payments may affect your credit file, future
+                borrowing and incur fees. Representative APR 127.34%.
+              </p>
+              <p>
+                At <strong>RentGuarantor</strong> we provide a professional
+                guarantor service to support tenants in securing a rental
+                property. However, if you are experiencing financial
+                difficulties, we strongly encourage you to seek independent
+                financial advice before applying for our guarantor service.
+              </p>
+              <p>
+                Support is available from:
+                <span class="text-blue-lt"
+                  >Citizens Advice, StepChange Debt Charity, National
+                  Debtline</span
+                >
+              </p>
+              <p>
+                These organisations provide free, confidential guidance on
+                managing financial challenges. Ensuring affordability is
+                essential, and we recommend making informed financial decisions
+                before committing to any guarantor obligations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row justify-content-xl-between justify-content-center align-items-center logos"
+        >
+          <div class="col-auto text-center mb-4">
+            <img src="./images/nirala.png" class="img-fluid" alt="Nirla" />
+          </div>
+          <div class="col-auto text-center mb-4">
+            <img
+              src="./images/propertymark.png"
+              class="img-fluid"
+              alt="Propertymark"
+            />
+          </div>
+          <div class="col-auto text-center mb-4">
+            <img src="./images/aquis.png" v alt="aquis" />
+          </div>
+          <div class="col-auto text-center mb-4">
+            <img src="./images/pay.png" class="img-fluid" alt="Payl8r" />
+          </div>
+          <div class="col-auto text-center mb-4">
+            <img src="./images/paypal.png" class="img-fluid" alt="Paypal" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-space subscribe-section bg-yellow-dark text-white">
+      <div class="container">
+        <div class="row px-lg-5 align-items-center">
+          <div class="col-xl-7">
+            <h2 class="fw-medium">
+              Subscribe to get the <br />latest from Rent Guarantor
+            </h2>
+          </div>
+          <div class="col-xl-5 ps-xl-4 mt-4 mt-xl-0">
+            <div class="d-flex align-sm-items-center mb-4">
+              <div class="me-sm-5 me-2 d-inline-flex align-items-center">
+                <input
+                  type="checkbox"
+                  id="btncheck1"
+                  autocomplete="off"
+                  class="border-0"
+                />
+                <label for="btncheck1" class="text-dark ms-2 text-uppercase"
+                  >Tenant</label
+                >
+              </div>
+              <div class="me-sm-5 me-2 d-inline-flex align-items-center">
+                <input type="checkbox" id="btncheck2" autocomplete="off" />
+                <label for="btncheck2" class="text-dark ms-2 text-uppercase"
+                  >Agent</label
+                >
+              </div>
+              <div class="me-sm-5 me-2 d-inline-flex align-items-center">
+                <input type="checkbox" id="btncheck3" autocomplete="off" />
+                <label for="btncheck3" class="text-dark ms-2 text-uppercase"
+                  >landlord</label
+                >
+              </div>
+            </div>
+            <div class="input-group mb-3 rounded-4 overflow-hidden">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your email address"
+                aria-label="Your email address"
+                aria-describedby="button-addon2"
+              />
+              <button class="btn btn-blue" type="button" id="button-addon2">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="section-space pb-0 footer bg-blue-dark">
+      <div class="container">
+        <div class="footer-top pb-5 mb-5">
+          <div class="row text-lg-start text-center">
+            <div class="col-xl-3 pe-xl-5">
+              <div class="mb-4">
+                <img src="./images/white-logo.png" alt="Rent Guarantor" />
+              </div>
+              <p class="footer-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                varius sed sem quis ultrices. Aenean enim odio, dapibus at elit
+                quis, lobortis gravida neque.
+              </p>
+            </div>
+            <div class="col-lg-auto col-6 flex-lg-fill">
+              <div class="links-heading text-white mb-2">
+                Useful Information
+              </div>
+              <ul>
+                <li class="mb-3"><a href="#">FAQ</a></li>
+                <li class="mb-3"><a href="#">News</a></li>
+                <li class="mb-3"><a href="#">Promotions</a></li>
+                <li class="mb-3"><a href="#">Affilate Programme</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-auto col-6 flex-lg-fill">
+              <div class="links-heading text-white mb-2">Legal</div>
+              <ul>
+                <li class="mb-3"><a href="#">Terms & Conditions</a></li>
+                <li class="mb-3"><a href="#">Privacy</a></li>
+                <li class="mb-3"><a href="#">Cookies</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-auto col-6 flex-lg-fill">
+              <div class="links-heading text-white mb-2">Company</div>
+              <ul>
+                <li class="mb-3"><a href="#">About us</a></li>
+                <li class="mb-3"><a href="#">Investors</a></li>
+                <li class="mb-3"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-auto col-6 flex-lg-fill">
+              <div class="links-heading text-white mb-2">Internal Links</div>
+              <ul>
+                <li class="mb-3"><a href="#">How It Works</a></li>
+                <li class="mb-3"><a href="#">Pricing</a></li>
+                <li class="mb-3"><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-auto col-6 flex-lg-fill">
+              <div class="links-heading text-white mb-2">Quick Links</div>
+              <ul>
+                <li class="mb-3"><a href="#">Payment</a></li>
+                <li class="mb-3"><a href="#">Report Arrears</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom pb-5">
+          <div class="container-fluid">
+            <div
+              class="row justify-content-between flex-column flex-md-row align-items-center"
+            >
+              <div class="col-auto">
+                <div class="footer-links">
+                  <ul class="d-flex align-items-center">
+                    <li class="pe-4 me-4">
+                      <a href="#">Terms & Conditions</a>
+                    </li>
+                    <li class="pe-4 me-4"><a href="#">Privacy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-auto mt-md-0 mt-3">
+                <ul class="social-links d-flex align-items-center">
+                  <li class="ms-0">
+                    <a
+                      href="https://www.facebook.com/RentGuarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/RentGuarantor" target="_blank"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/rentguarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/rentguarantor"
+                      target="_blank"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="row footer-copyright text-center justify-content-center mt-5"
+            >
+              <div class="col-lg-6">
+                <div>© RentGuarantor 2025 All rights reserved.</div>
+                <div>
+                  RentGuarantor Limited, Registration no. 07913370. Part of the
+                  RentGuarantor Holdings PLC group of companies.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div
+      class="modal fade"
+      id="howItWorkModal"
+      tabindex="-1"
+      aria-labelledby="howItWorkLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg lh-1">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <iframe
+              class="w-100"
+              width="560"
+              height="400"
+              src="https://www.youtube.com/embed/_6MkfGIlyQ0?si=G99Fj9Q2RdHQN65r"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/custom.js"></script>
+    <script type="text/javascript" src="./js/slick.js"></script>
+  </body>
+</html>

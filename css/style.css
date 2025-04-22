@@ -182,6 +182,10 @@ a {
   text-decoration: none;
 }
 
+.icon-link {
+  color: #f0bb52;
+}
+
 a:hover,
 a:focus {
   color: #f0bb52;
@@ -246,6 +250,55 @@ a:focus {
   padding: 0 29px;
 }
 
+.form-control {
+  border: none;
+  border-radius: 0;
+  background-color: #fbf9f7;
+  padding: 12px 30px;
+  height: 52px;
+  font-size: 14px;
+}
+
+.form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .form-floating {
+    overflow: hidden;
+  }
+
+  .form-floating>label {
+    font-size: 14px;
+  }
+}
+
+textarea.form-control {
+  height: 210px;
+  resize: none;
+}
+
 @media only screen and (max-width: 767px) {
   .btn {
     font-size: 14px;
@@ -269,6 +322,10 @@ a:focus {
 @media only screen and (max-width: 991px) {
   .section-space {
     padding: 60px 15px;
+  }
+
+  .section-space.customer-section {
+    padding-bottom: 36px;
   }
 }
 
@@ -693,11 +750,12 @@ a:focus {
   position: absolute;
   top: 0;
   max-width: 1290px;
-  padding: 90px 12px 0;
+  padding: 0px 12px 0;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: #fff;
   text-align: center;
   width: 100%;
@@ -736,7 +794,7 @@ a:focus {
   line-height: 1;
   width: 12px;
   height: 12px;
-  background: url("/images/slide-nav.png") no-repeat top left;
+  background: url("../images/slide-nav.png") no-repeat top left;
   background-size: 12px auto;
 }
 
@@ -796,10 +854,6 @@ a:focus {
     bottom: 20px;
   }
 
-  .slider-sec .slider-content {
-    padding-top: 50px;
-  }
-
   .slider-sec .slider-content p {
     font-size: 12px;
     line-height: 20px;
@@ -814,6 +868,15 @@ a:focus {
 }
 
 /*our services*/
+
+#howItWorkModal .modal-content .btn-close {
+  position: absolute;
+    right: -15px;
+    top: -15px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
 
 .service-sec {
   background-color: #232d5d;
@@ -1492,4 +1555,361 @@ a:focus {
     top: 2px;
     font-size: 10px;
   }
+}
+
+/* Ready to Continue */
+
+.ready-to-continue {
+  background: url(../images/get-quote-bottom-bg.png) no-repeat center center
+    #232d5d;
+}
+
+/* How its Work */
+
+.play-blue-btn {
+  -moz-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.play-blue-btn:hover {
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 991px) {
+  .play-blue-btn {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Apply Service */
+
+.apply-service {
+  background-color: #f8f4ef;
+  position: relative;
+}
+
+.apply-service::before {
+  content: "";
+  position: absolute;
+  height: 174px;
+  width: 147px;
+  left: calc(50% - 860px);
+  top: 80px;
+  background: url(../images/lock-icon-sm.png) no-repeat center center;
+}
+
+.apply-service::after {
+  content: "";
+  position: absolute;
+  height: 204px;
+  width: 197px;
+  right: calc(50% - 950px);
+  bottom: 50px;
+  background: url(../images/plant-icon.png) no-repeat center center;
+}
+
+/* Blog page */
+
+.banner-blog {
+  background: url(../images/blog-banner.jpg) no-repeat center center;
+}
+
+.blog-card .card {
+  background-color: #fbf9f7;
+}
+
+.blog-card .card-header {
+  height: 230px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog-author-date {
+  font-size: 12px;
+  border-bottom: 1px solid #f3ede6;
+}
+
+.blog-author-date strong {
+  color: #232d5d;
+}
+
+.blog-card .badge {
+  padding: 6px 10px;
+  border: 1px solid #f0bb52;
+  color: #6f6f6f;
+  font-weight: normal;
+  font-size: 12px;
+  border-radius: 14px;
+}
+
+.blog-card .card-body h3 {
+  font-weight: 600;
+}
+
+.blog-card .card-body h3 a {
+  color: #060c18;
+}
+
+.blog-card .card-body h3 a:hover {
+  color: #f0bb52;
+}
+
+.blog-card .card-body p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.blog-card .card-body .icon-link {
+  left: 24px;
+  bottom: 32px;
+}
+
+.cate-card {
+  font-size: 14px;
+}
+
+.cate-card a strong {
+  font-weight: 600;
+}
+
+.cate-card a {
+  background: none;
+}
+
+.cate-card a:hover {
+  background-color: #fbf9f7;
+  border-color: #f0bb52;
+  color: #3e465d;
+}
+
+.tweet-icon a:hover {
+  color: #3b4459;
+}
+
+.popular-card .badge {
+  padding: 6px 10px;
+  border: 1px solid #c4d2d6;
+  color: #000000;
+  font-weight: normal;
+  background: #edf4f6;
+  font-size: 12px;
+  border-radius: 14px;
+}
+
+.popular-card .post-date {
+  font-size: 12px;
+  color: #717171;
+}
+
+.popular-card .card a {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.popular-card > div {
+  border-color: #eef0f7 !important;
+}
+
+.top-head-blog {
+  border-bottom: 1px solid #eef0f7;
+}
+
+.pagination li a {
+  color: #3b4459;
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border-radius: 4px;
+  -moz-transition: all 0.3s ease-in;
+  /* WebKit */
+  -webkit-transition: all 0.3s ease-in;
+  /* Opera */
+  -o-transition: all 0.3s ease-in;
+  /* Standard */
+  transition: all 0.3s ease-in;
+}
+
+.pagination li.active a,
+.pagination li a:hover {
+  background-color: #f0bb52;
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagination li a {
+    width: 16px;
+    height: 16px;
+    font-size: 12px !important;
+  }
+}
+
+/* blog details */
+
+.blog-details-section .badge-lg {
+  padding: 12px 20px;
+  border: 1px solid #f0bb52;
+  color: #060c18;
+  font-weight: normal;
+  background: #fbf9f7;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.blog-detail-img-wrapper:after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  top: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  border-radius: 16px;
+}
+
+@media only screen and (max-width: 991px) {
+  .blog-detail-img-wrapper:after {
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    top: 15px;
+    left: 15px;
+  }
+}
+
+.blog-content {
+  color: #575757;
+}
+
+.blog-content p {
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.blog-content h3 {
+  color: #060c18;
+  margin-bottom: 25px;
+}
+
+.tags-list span {
+  background-color: #f1f3f5;
+  font-size: 14px;
+}
+
+.social-share {
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.social-share-list ul li a {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.social-share-list ul li a.twitter {
+  background-color: #48bde9;
+}
+
+.social-share-list ul li a.facebook {
+  background-color: #4f5fbf;
+}
+
+.social-share-list ul li a.enve {
+  background-color: #7a7e83;
+}
+
+.social-share-list ul li a.link {
+  background-color: #f8f5f3;
+  color: #060c18;
+}
+
+.social-share-list ul li:hover a {
+  opacity: 0.8;
+}
+
+/* contact us */
+
+.banner-contact {
+  background: url(../images/contact-banner.jpg) no-repeat top center;
+}
+
+.contact-info i {
+  font-size: 20px;
+  top: 5px;
+}
+
+.contact-info a {
+  color: #060c18;
+}
+
+.contact-info a:hover {
+  color: #f0bb52;
+}
+
+.contact-form .input-group .input-group-text {
+  width: 30px;
+  display: inline-flex;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+/* map section */
+
+.map-section {
+  background-color: #f8f5f3;
+}
+
+.map-section a {
+  color: #f0bb52;
+}
+
+.map-section a:hover {
+  color: #e89c06;
+}
+
+.map-section iframe {
+  width: 100%;
+  height: 400px;
+}
+
+/* faq section*/
+
+.faq-section .accordion-item {
+  border: none;
+  border-radius: 0;
+}
+
+.faq-section .accordion-item .accordion-header button {
+  color: #060c18;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px !important;
+}
+
+.faq-section .accordion-item .accordion-body {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.faq-section .accordion-item .accordion-header button:not(.collapsed) {
+  border: 1px solid #f0bb52;
+}
+
+.faq-section .accordion-item .accordion-header button:after {
+  background: url(../images/arrow-right.svg) no-repeat center right;
+
+  transform: rotate(90deg);
+}
+
+.faq-section .accordion-item .accordion-header button:not(.collapsed):after {
+  transform: rotate(0deg);
 }
