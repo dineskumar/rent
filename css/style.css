@@ -284,12 +284,11 @@ a:focus {
 }
 
 @media only screen and (max-width: 767px) {
-
   .form-floating {
     overflow: hidden;
   }
 
-  .form-floating>label {
+  .form-floating > label {
     font-size: 14px;
   }
 }
@@ -373,6 +372,19 @@ textarea.form-control {
 .btn-purple:hover {
   background-color: #790640;
   border-color: #790640;
+  color: #fff;
+}
+
+.btn-green {
+  background-color: #00a786;
+  border-color: #00a786;
+  color: #fff;
+}
+
+.btn-green:focus,
+.btn-green:hover {
+  background-color: #00846a;
+  border-color: #00846a;
   color: #fff;
 }
 
@@ -871,11 +883,11 @@ textarea.form-control {
 
 #howItWorkModal .modal-content .btn-close {
   position: absolute;
-    right: -15px;
-    top: -15px;
-    background-color: #fff;
-    border-radius: 50%;
-    padding: 10px;
+  right: -15px;
+  top: -15px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .service-sec {
@@ -1557,6 +1569,16 @@ textarea.form-control {
   }
 }
 
+
+@media only screen and (max-width: 565px) {
+
+  .footer-links ul li:after {
+    right: -3px;
+    font-size: 8px;
+    top: 5px;
+  }
+}
+
 /* Ready to Continue */
 
 .ready-to-continue {
@@ -1837,6 +1859,12 @@ textarea.form-control {
   opacity: 0.8;
 }
 
+@media only screen and (max-width: 767px) {
+  .tags-list span {
+    margin-bottom: 10px;
+  }
+}
+
 /* contact us */
 
 .banner-contact {
@@ -1912,4 +1940,188 @@ textarea.form-control {
 
 .faq-section .accordion-item .accordion-header button:not(.collapsed):after {
   transform: rotate(0deg);
+}
+
+/* popular tags */
+
+.popular-tags-section {
+  background: url(../images/tags-banner-bg.png) no-repeat top center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 374px;
+}
+
+.popular-tags-list {
+  background: url(../images/tag-list-bg.png) repeat left -20px;
+}
+
+.popular-tags-list .badge {
+  padding: 0 20px;
+  line-height: 36px;
+  height: 36px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #535353;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  border: 1px solid #eee;
+  display: inline-flex;
+}
+
+.bg-badge-orange {
+  background-color: #f8ede3;
+}
+
+.bg-badge-blue {
+  background-color: #e9f8ff;
+}
+
+.bg-badge-green {
+  background-color: #d3f4ed;
+}
+
+.bg-badge-purple {
+  background-color: #dde1f7;
+}
+
+.registration-setion {
+  background: url(../images/register-bg.png) no-repeat center bottom;
+  min-height: 950px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.form-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-step {
+  display: none;
+  width: 100%;
+  transition: opacity 0.4s ease;
+}
+
+.form-step.active {
+  display: block;
+}
+input.invalid {
+  border: 2px solid red;
+}
+
+.form-step .form-control {
+  padding: 12px 20px;
+  box-shadow: none;
+  background-color: #fff;
+  font-size: 14px;
+  outline: 0;
+}
+
+.form-step .form-control:focus {
+  border: 1px solid #f0bb52 !important;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+
+.form-check .form-check-row {
+  padding: 12px 40px;
+  background: white;
+  border-radius: 8px;
+  color: #333;
+  font-size: 14px;
+}
+
+.form-check .form-check-row a {
+  display: inline-flex;
+  border-radius: 50%;
+  background: #8c98a4;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 14px;
+  height: 14px;
+  font-style: italic;
+  margin-left: 5px;
+  line-height: 1;
+  padding-top: 2px;
+}
+
+.form-check .form-check-row input {
+  cursor: pointer;
+  accent-color: green;
+}
+
+.form-check .form-check-row label {
+  display: inline-flex;
+  align-items: center;
+}
+
+.form-check .form-check-row span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232d5d;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #fff;
+  padding: 0 5px;
+  margin: 0 10px;
+}
+
+.registration-setion .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  text-transform: none;
+  letter-spacing: 0;
+  color: #060c18;
+}
+
+.registration-setion .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  text-transform: none;
+  letter-spacing: 0;
+  color: #060c18;
+}
+
+.registration-setion .form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  text-transform: none;
+  letter-spacing: 0;
+  color: #060c18;
+}
+
+.registration-setion .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  text-transform: none;
+  letter-spacing: 0;
+  color: #060c18;
+}
+
+.terms-box {
+  font-size: 14px;
+}
+
+.form-container h4 a,
+.email-text a,
+.terms-box a {
+  color: #00a786;
+}
+
+.form-container h4 a:hover,
+.email-text a:hover,
+.terms-box a:hover {
+  color: #00846a;
+}
+
+.form-container h4 a {
+}
+
+@media only screen and (max-width: 991px) {
+  .registration-setion {
+    min-height: 0;
+    background: #e9e9e9;
+  }
 }
