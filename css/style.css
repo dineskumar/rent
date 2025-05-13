@@ -935,14 +935,14 @@ textarea.form-control {
   min-height: 515px;
 }
 
-.service-sec::before {
-  content: "";
+.service-sec .secivce-section-bg {
   position: absolute;
   width: 50%;
   height: 100%;
   right: 0;
   top: 0;
-  background: url(../images/our-services.jpg) no-repeat left center;
+  background-repeat: no-repeat;
+  background-position: left center;
   background-size: cover;
 }
 
@@ -1066,9 +1066,10 @@ textarea.form-control {
   position: relative;
 }
 
-.get-quote-sec::after {
-  background: url(../images/quote-bg-right.png) no-repeat center 80px;
-  content: "";
+.get-quote-sec span.rightBg {
+  background-image: url(../images/quote-bg-right.png);
+  background-repeat: no-repeat;
+  background-position: center 80px;
   width: 50%;
   height: 100%;
   position: absolute;
@@ -1076,9 +1077,10 @@ textarea.form-control {
   right: 0;
 }
 
-.get-quote-sec::before {
-  background: url(../images/get-quote-bg.jpg) no-repeat top right;
-  content: "";
+.get-quote-sec span.leftBg {
+  background-image: url(../images/get-quote-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
   width: 50%;
   height: 100%;
   position: absolute;
@@ -1100,6 +1102,10 @@ textarea.form-control {
     display: none;
   }
 
+  .get-quote-sec span.leftBg {
+    display: none;
+  }
+  .get-quote-sec span.rightBg,
   .get-quote-sec::after {
     width: 100%;
   }
@@ -1569,9 +1575,7 @@ textarea.form-control {
   }
 }
 
-
 @media only screen and (max-width: 565px) {
-
   .footer-links ul li:after {
     right: -3px;
     font-size: 8px;
@@ -1613,7 +1617,7 @@ textarea.form-control {
   position: relative;
 }
 
-.apply-service::before {
+.apply-service.apply-service-inner::before {
   content: "";
   position: absolute;
   height: 174px;
@@ -1623,7 +1627,7 @@ textarea.form-control {
   background: url(../images/lock-icon-sm.png) no-repeat center center;
 }
 
-.apply-service::after {
+.apply-service.apply-service-inner::after {
   content: "";
   position: absolute;
   height: 204px;
